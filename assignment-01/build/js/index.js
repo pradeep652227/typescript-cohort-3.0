@@ -28,5 +28,20 @@ function sum1(...nums) {
 console.log(calc(sum1, 1, 2, 3, 4));
 function delayedCall(func) {
     setTimeout(func, 2000);
+    if (func.length != 0)
+        return 5;
+    return;
 }
 delayedCall(() => console.log('Hello there'));
+/*Assignment - 05*/
+console.log('Assignment - 05');
+;
+function isLegal_UserType(user) {
+    return user.age > 18;
+}
+let user = {
+    username: "Pradeep",
+    age: 23,
+    address: "test"
+};
+console.log(isLegal_UserType(user));

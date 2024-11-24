@@ -9,3 +9,6 @@ Create a function that takes 02 numbers and returns their sum
 Create a function that takes 'age' as an argumnent and returns whether the age is > 18 or not
 
 # Assignment 04: Function that takes another function as input
+
+# Assignment 05: 
+Create a function isLegal that returns true or false if a user is above 18 or not. It takes user as an Input

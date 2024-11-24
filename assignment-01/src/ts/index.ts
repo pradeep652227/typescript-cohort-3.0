@@ -37,8 +37,34 @@ function sum1(...nums : number[]) : number{
 
 console.log(calc(sum1,1,2,3,4));
 
-function delayedCall(func : ()=>void){
+function delayedCall(func : (()=>void) | ((a : string)=> number)) : void | number | string{
        setTimeout(func,2000);
+
+       if(func.length!=0)
+       return 5;
+       return ;
 }
 
 delayedCall(()=>console.log('Hello there'));
+
+/*Assignment - 05*/
+
+console.log('Assignment - 05')
+
+interface userType {
+       username : string,
+       age : number,
+       address : string
+};
+
+function isLegal_UserType (user : userType) : boolean {
+       return user.age>18;
+}
+
+let user : userType = {
+       username : "Pradeep",
+       age : 23,
+       address : "test"
+}
+console.log(isLegal_UserType(user));
+
