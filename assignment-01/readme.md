@@ -12,3 +12,6 @@ Create a function that takes 'age' as an argumnent and returns whether the age i
 
 # Assignment 05: 
 Create a function isLegal that returns true or false if a user is above 18 or not. It takes user as an Input
+
+# Assignment 06:
+Create interfaces, implement them. Differentiate between "Implmenting Interfaces and Extending Classes" and "Interfaces and Abstract Classes"
